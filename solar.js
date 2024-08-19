@@ -22,7 +22,7 @@ controls.update();
 
 // Load texture for the Sun
 const textureLoader = new THREE.TextureLoader();
-const sunTexture = textureLoader.load('texture/solarTextures/2k_sun.jpg');
+const sunTexture = textureLoader.load('/solarTextures/2k_sun.jpg');
 
 // Create Sun
 const sphereGeometry = new THREE.SphereGeometry(1, 32, 32);
