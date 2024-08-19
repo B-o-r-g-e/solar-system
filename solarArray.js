@@ -15,7 +15,7 @@ const mercuryMesh = textureLoader.load(
 )
 
 const venusMesh = textureLoader.load(
-    'texture/solarTextures/2k_venus_surface.jpg',
+    '/solarTextures/2k_venus_surface.jpg',
     () => {
         // console.log('success')
     },
@@ -26,7 +26,7 @@ const venusMesh = textureLoader.load(
 )
 
 const earthMesh = textureLoader.load(
-    'texture/solarTextures/2k_earth_daymap.jpg',
+    '/solarTextures/2k_earth_daymap.jpg',
     () => {
         // console.log('success')
     },
@@ -37,7 +37,7 @@ const earthMesh = textureLoader.load(
 )
 
 const marsMesh = textureLoader.load(
-    'texture/solarTextures/2k_mars.jpg',
+    '/solarTextures/2k_mars.jpg',
     () => {
         // console.log('success')
     },
@@ -48,7 +48,7 @@ const marsMesh = textureLoader.load(
 )
 
 const jupiterMesh = textureLoader.load(
-    'texture/solarTextures/8k_jupiter.jpg',
+    '/solarTextures/8k_jupiter.jpg',
     () => {
         // console.log('success')
     },
@@ -59,7 +59,7 @@ const jupiterMesh = textureLoader.load(
 )
 
 const saturnMesh = textureLoader.load(
-    'texture/solarTextures/8k_saturn.jpg',
+    '/solarTextures/8k_saturn.jpg',
     () => {
         // console.log('success')
     },
@@ -70,7 +70,7 @@ const saturnMesh = textureLoader.load(
 )
 
 const uranusMesh = textureLoader.load(
-    'texture/solarTextures/2k_uranus.jpg',
+    '/solarTextures/2k_uranus.jpg',
     () => {
         // console.log('success')
     },
@@ -81,7 +81,7 @@ const uranusMesh = textureLoader.load(
 )
 
 const moonMesh = textureLoader.load(
-    'texture/solarTextures/2k_moon.jpg',
+    '/solarTextures/2k_moon.jpg',
     () => {
         // console.log('success')
     },
