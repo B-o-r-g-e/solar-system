@@ -36,12 +36,12 @@ sun.scale.setScalar(5)
 //create background
 const backgroundCubeMap = new THREE.CubeTextureLoader()
     .load([
-        'texture/cubeMap/px.png',
-        'texture/cubeMap/nz.png',
-        'texture/cubeMap/py.png',
-        'texture/cubeMap/ny.png',
-        'texture/cubeMap/pz.png',
-        'texture/cubeMap/nz.png'
+        '/cubeMap/px.png',
+        '/cubeMap/nz.png',
+        '/cubeMap/py.png',
+        '/cubeMap/ny.png',
+        '/cubeMap/pz.png',
+        '/cubeMap/nz.png'
     ])
 
 scene.background = backgroundCubeMap
