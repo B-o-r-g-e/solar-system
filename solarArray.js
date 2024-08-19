@@ -4,7 +4,7 @@ import * as THREE from 'three';
 const textureLoader = new THREE.TextureLoader();
 
 const mercuryMesh = textureLoader.load(
-    'public/solarTextures/2k_mercury.jpg',
+    '/solarTextures/2k_mercury.jpg',
     () => {
         // console.log('success')
     },
